@@ -1,0 +1,132 @@
+{
+  "coffee": [
+    {
+      "id": 1,
+      "name": "Brazil Santos",
+      "price": 2200,
+      "imgUrl": "assets/img/product/type-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ethiopia Sidamo",
+      "price": 2250,
+      "imgUrl": "assets/img/product/type-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Colombia Supremo",
+      "price": 2400,
+      "imgUrl": "assets/img/product/type-3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Burundi Jarama",
+      "price": 2650,
+      "imgUrl": "assets/img/product/type-4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Espresso Blend",
+      "price": 2100,
+      "imgUrl": "assets/img/product/type-5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Cremo Blend",
+      "price": 2350,
+      "imgUrl": "assets/img/product/type-6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Nomad Blend",
+      "price": 2250,
+      "imgUrl": "assets/img/product/type-7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "ALFA Blend",
+      "price": 2350,
+      "imgUrl": "assets/img/product/type-8.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": 7,
+      "coffee": {
+        "id": 2,
+        "name": "Ethiopia Sidamo",
+        "price": 2250,
+        "imgUrl": "assets/img/product/type-2.jpg"
+      },
+      "totalSum": 22500,
+      "status": "В обработке",
+      "deliverDate": "2022-11-14T18:00:00.000Z",
+      "createDate": "2022-11-01T16:50:32.870Z"
+    },
+    {
+      "id": 8,
+      "coffee": {
+        "id": 1,
+        "name": "Brazil Santos",
+        "price": 2200,
+        "imgUrl": "assets/img/product/type-1.jpg"
+      },
+      "totalSum": 48400,
+      "status": "На комплектации",
+      "deliverDate": "2022-11-04T18:00:00.000Z",
+      "createDate": "2022-11-01T16:51:06.833Z"
+    },
+    {
+      "id": 9,
+      "coffee": {
+        "id": 8,
+        "name": "ALFA Blend",
+        "price": 2350,
+        "imgUrl": "assets/img/product/type-8.jpg"
+      },
+      "totalSum": 376000,
+      "status": "На комплектации",
+      "deliverDate": "2022-12-12T18:00:00.000Z",
+      "createDate": "2022-11-01T16:51:39.006Z"
+    },
+    {
+      "id": 10,
+      "coffee": {
+        "id": 6,
+        "name": "Cremo Blend",
+        "price": 2350,
+        "imgUrl": "assets/img/product/type-6.jpg"
+      },
+      "totalSum": 89300,
+      "status": "Отменен",
+      "deliverDate": "2022-11-12T18:00:00.000Z",
+      "createDate": "2022-11-01T16:51:55.708Z"
+    },
+    {
+      "id": 11,
+      "coffee": {
+        "id": 6,
+        "name": "Cremo Blend",
+        "price": 2350,
+        "imgUrl": "assets/img/product/type-6.jpg"
+      },
+      "totalSum": 103400,
+      "status": "Отменен",
+      "deliverDate": "2022-11-28T18:00:00.000Z",
+      "createDate": "2022-11-01T16:52:15.991Z"
+    },
+    {
+      "id": 12,
+      "coffee": {
+        "id": 5,
+        "name": "Espresso Blend",
+        "price": 2100,
+        "imgUrl": "assets/img/product/type-5.jpg"
+      },
+      "totalSum": 31500,
+      "status": "В обработке",
+      "deliverDate": "2022-11-09T18:00:00.000Z",
+      "createDate": "2022-11-01T16:54:24.119Z"
+    }
+  ]
+}
